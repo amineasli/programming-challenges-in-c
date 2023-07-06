@@ -40,8 +40,6 @@ _Bool is_sorted(int a[], int n)
 {
     for (int i = 0; i < n - 1; i++)
     {
-        printf("%d\n", a[i]);
-
         if (a[i] > a[i + 1])
             return 0;
     }
